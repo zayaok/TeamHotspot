@@ -11,7 +11,7 @@ namespace DataTypesAndVariables.Answers
             //write a program that creates an array of integers called "odds" with a size of 5 elements
             int[] odds = new int[5];
             //Then create a loop that will add the odd numbers between 0 and 10 to the array
-            int nextOddSlot = 0;
+            int nextOddSlot = 0 ;
             for (int i = 0; i < 5; i++)
             {
                 if (i % 2 != 0)
